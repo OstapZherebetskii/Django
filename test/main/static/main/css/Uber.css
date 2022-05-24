@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding-top: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg__image {
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-image: url(ubermega3.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.header { 
+  background-color: aqua;
+  z-index: 2;
+  position: fixed;
+  top: -1;
+  width: calc(100vw - 50px);
+  padding: 0 25px;
+  display: flex;
+  height: 100px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.Jop { 
+  margin: 100px;
+  background-color: aqua;
+
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.header--bg-white {
+  background-color: white;
+  border-bottom: solid 2px lightgray;
+
+}
+#Layer_1 {
+  display: inline;
+  height: 32px;
+  margin: 30px 0 28px;
+  margin-left: 10px;
+}
+
+.Uberlogo{
+  margin-left: 30px;
+}
+
+.sign {
+
+  padding: 15px;
+  font-weight: normal;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.title{
+  font-weight: bold;
+  padding-top: 250px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.form {
+  position: relative;
+  font-family:Arial, FontAwesome;
+}
+
+.placeholder{
+  left: 50px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 80px;
+  font-weight: bold;
+  width: 500px;
+  height: 40px;
+  border: 0px;
+  background-color: white;
+}
+
+.placeholder:focus{
+  outline: none;
+  outline-offset: 0;
+  border-bottom: 2px solid black;
+  
+}
+
+
+.place__svg {
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  height: 32px;
+  width: 30px;
+  background-color: white;
+  padding: 5px;
+  
+
+}
+.place__svg-click {
+  border-bottom: 2px solid black;
+}
+
+.select {
+  top: 40px;
+  left: 600px;
+  font-size: 20px;
+  width: 250px;
+  font-weight: bold;
+  height: 38px;
+  background-color: white;
+  outline-color:transparent;
+  border: 0;
+}
+
+.butt {
+  top: 40px;
+  left: 800px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  color: white;
+  background-color: black;
+  border: 0px;
+}
+
+.underform {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.images {
+  margin: 40px 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2 {
+  margin-top:10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.h3{
+  margin-top:8px;
+  font-size: 15px;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 0;
+}
+
+.city__url {
+  text-align: center;
+  margin: 0 4% 0;
+  border-top: 25px solid transparent;
+  border-bottom: 15px solid transparent;
+  font-size: 17px;
+  color: black;
+}
+
+.cities {
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-size: 20px;
+  margin: 30px 4%;
+}
+
+.city__row {
+  display: grid;  
+  text-decoration: none;
+  line-height: 3;
+
+}
+
+.city__item {
+  text-decoration: none;
+  color:black;
+  padding: 5px;
+}
+
+.s_title {
+  margin: 0 4% ;  
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  height: 85vh;
+  background:black;
+  color: white;
+  padding-top: 40px;
+}
+
+.UberLogobord{ 
+  padding: 80px 50% 70px 40px;
+  block-size: 300px 500px;
+}
+.appstore{ 
+  padding: 80px 10px 0 40px;
+  block-size: 300px 500px;
+}
+.googleplay{ 
+  padding: 80px 40px 0 10px;  
+  block-size: 300px 500px;
+}
+
+.foot__div {
+
+  display: grid ;
+  grid-template-columns: 50% auto auto;
+}
+
+.foot__table {
+  font-size: 16px;
+  padding: 80px 0 15px;
+  line-height: 2.5;
+
+}
+
+.footer--priv {
+  font-size: 14px;
+  padding-top: 30px;
+  padding-left: 40px;
+  display: grid;
+  grid-template-columns: 30% 700px auto;
+  
+}
+
+.footer--priv-foto {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin-right: 15px; 
+}
+
+
+.adss {
+  display: grid;
+  justify-content:right;
+  padding-right: 70px;
+}
+
+
+.asd {
+  padding-bottom: 15px;
+  display: flex; 
+  justify-content:right;
+}
+
+.footer--priv--2grid-upper {
+  padding-left:30px;
+}
+
+.link-underline {
+  display: inline; 
+  text-decoration: none; 
+  color: white;
+  overflow: hidden;
+}
+.link-underline:hover {
+  text-decoration:underline;
+}
+
+.ca {
+  fill:white ;
+  height: 15px;
+  width: 16px;
+}

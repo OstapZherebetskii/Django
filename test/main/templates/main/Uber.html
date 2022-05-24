@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"> 
+    <title>Uber Eats | Food Delivery and Takeout | Order Online from Restaurants Near You</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="shortcut icon" href="pizza.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename=('css/Uber.css') ) }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename=('js/uber__script.js') ) }}"></script>
+    <script src="https://kit.fontawesome.com/c0ab483d98.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bg__image">                                                         <!-- Фонова фотка -->
+      <header class="header">
+        <div>
+        <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" 
+    viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6
+    ,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,
+    14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+        <a class="header__link" href="#" >
+          <img class="Uberlogo" src="static/css/UberLogo.png" width="150"> 
+        </a>
+      </div>
+        <a class="sign" href="#" >
+          Sign in
+        </a>
+      </header>
+  
+      <h1 class="title">Order food to your door</h1>
+      <form class="form">
+        <svg class="place__svg">
+          <path d="M17.5834 5.16602C14.5001 2.08268 9.50008 2.08268 
+          6.41675 5.16602C3.33341 8.24935 3.33341 13.3327 6.41675 
+          16.416L12.0001 21.9993L17.5834 16.3327C20.6667 13.3327 
+          20.6667 8.24935 17.5834 5.16602ZM12.0001 12.416C11.0834 
+          12.416 10.3334 11.666 10.3334 10.7493C10.3334 9.83268 11.0834 
+          9.08268 12.0001 9.08268C12.9167 9.08268 13.6667 9.83268 13.6667 
+          10.7493C13.6667 11.666 12.9167 12.416 12.0001 12.416Z" fill="#000000"></path> 
+        </svg>
+        <input placeholder="Enter delivery address" class="placeholder">             <!-- Форма для замовлення -->
+        <select class="select" style="height: 45px; font-family:Arial, FontAwesome;">
+          <option value="Deliver now"> &#xf017; &nbsp; Deliver now</option>
+          <option value="Schedule for later"> &#xf783; &nbsp; Schedule for later</option>
+          </select>
+        <button class="butt">Find food</button>
+      </form>
+      <p class="underform"><a href="#" style="color: black;">Sign In</a> for your recent addresses </p>
+    </div>
+    
+    
+    <div class="images">
+      <a href="#" class="link"> <img src="static/css/uberfoto1.jpg" height="230px" width="400px"> 
+        <p class="h2"> Feed your employees </p> 
+        <p class="h3">Create a business account </p>  
+      </a>
+      <a href="#" class="link"> <img src="static/css/uberfoto2.jpg" height="230px" width="400px"> 
+        <p class="h2"> Feed your employees </p>
+        <p class="h3">Create a business account </p>   
+      </a>
+      <a href="#" class="link"> <img src="static/css/uberfoto3.jpg" height="230px" width="400px"> 
+        <p class="h2"> Feed your employees </p>
+        <p class="h3">Create a business account </p>    
+      </a>
+    </div>
+
+    <div class="center"> 
+      <a class="s_title">Cities near me</a>
+      <a href="#" class="city__url"> View all 500+ cities</a>
+    </div>
+
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.
+      2023339839827!2d24.03962065811107!3d49.853642724183956!2m3!1f0!2f0!3f0
+      !3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add100a7aeb07%3A0x88b287759d4845
+      22!2z0YPQuy4g0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtC60L7Qs9C-LCAxMzksINC
+      b0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1
+      sru!2sua!4v1642705936808!5m2!1sru!2sua" width="90%" height="450" 
+      style="margin: 50px 4% 0" allowfullscreen="" loading="lazy" >
+    </iframe>
+
+    <section class="cities">
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Atlanta </a> </li>
+        <li><a href="#" class="city__item"> Austin </a> </li>
+        <li><a href="#" class="city__item"> Baltimore-Maryland </a> </li>
+        <li><a href="#" class="city__item"> Boston </a> </li>
+        <li><a href="#" class="city__item"> Charlotte </a> </li>
+        <li><a href="#" class="city__item"> Chicago </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Dallas-Fort Worth </a> </li>
+        <li><a href="#" class="city__item"> Denver </a> </li>
+        <li><a href="#" class="city__item"> Las Vegas </a> </li>
+        <li><a href="#" class="city__item"> Los Angeles </a> </li>
+        <li><a href="#" class="city__item"> Miami </a> </li>
+        <li><a href="#" class="city__item"> Minneapolis - St. Paul </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> New York City </a> </li>
+        <li><a href="#" class="city__item"> Palm Springs </a> </li>
+        <li><a href="#" class="city__item"> Philadelphia </a> </li>
+        <li><a href="#" class="city__item">Phoenix </a> </li>
+        <li><a href="#" class="city__item"> Pittsburgh </a> </li>
+        <li><a href="#" class="city__item"> Portland </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Sacramento </a> </li>
+        <li><a href="#" class="city__item"> San Diego </a> </li>
+        <li><a href="#" class="city__item">  San Francisco Bay Area </a> </li>
+        <li><a href="#" class="city__item"> Seattle </a> </li>
+        <li><a href="#" class="city__item"> Tampa Bay </a> </li>
+        <li><a href="#" class="city__item"> Washington D.C. </a> </li>
+      </ul>
+    </section>
+
+    <a class="s_title">Countries with Uber Eats</a> 
+    <section class="cities">
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> United States </a> </li>
+        <li><a href="#" class="city__item"> Spain </a> </li>
+        <li><a href="#" class="city__item"> Brazil </a> </li>
+        <li><a href="#" class="city__item"> Mexico </a> </li>
+        <li><a href="#" class="city__item"> France </a> </li>
+        <li><a href="#" class="city__item"> Japan </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Canada </a> </li>
+        <li><a href="#" class="city__item"> Australia </a> </li>
+        <li><a href="#" class="city__item"> Poland </a> </li>
+        <li><a href="#" class="city__item"> United Kingdom </a> </li>
+        <li><a href="#" class="city__item"> Italy </a> </li>
+        <li><a href="#" class="city__item"> Portugal </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Switzerland </a> </li>
+        <li><a href="#" class="city__item"> Chile </a> </li>
+        <li><a href="#" class="city__item"> New Zealand </a> </li>
+        <li><a href="#" class="city__item"> Taiwan (ROC) </a> </li>
+        <li><a href="#" class="city__item"> South Africa </a> </li>
+        <li><a href="#" class="city__item"> Belgium </a> </li>
+      </ul>
+      <ul class="city__row">
+        <li><a href="#" class="city__item"> Ecuador </a> </li>
+        <li><a href="#" class="city__item"> Ireland </a> </li>
+        <li><a href="#" class="city__item"> Sri Lanka </a> </li>
+        <li><a href="#" class="city__item"> Sweden </a> </li>
+        <li><a href="#" class="city__item"> Guatemala </a> </li>
+        <li><a href="#" class="city__item"> Costa Rica </a> </li>
+      </ul>
+    </section>
+
+    <footer> 
+      
+      <div class="foot__div"> 
+        <div>
+          <img class="UberLogobord" src="static/css/Uber_logo_white.jpg" width="150">
+          <img class="appstore" src="static/css/appstore.png" width="150">
+          <img class="googleplay" src="static/css/googleplay.jpg" width="150">
+      
+        </div>
+        <div class="foot__table">
+          <ul>
+            <li>Get Help </li>
+            <li>Buy gift cards</li>
+            <li>Add your restaurant</li>
+            <li>Sign up to deliver</li>
+            <li>Create a business account</li>
+            <li>Save on your first order</li>
+          </ul>
+        </div>
+        <div class="foot__table">
+          <ul>
+            <li>Restaurants near me</li>
+            <li>View all cities</li>
+            <li>View all countries</li>
+            <li>Pickup near me</li>
+            <li>About Uber Eats</li>
+            <li> 
+              <svg aria-label="Select a language" class="ca">
+                <path d="M12.267 6.667H9.733l-.933 2.2c-.467-.2-1-.534-1.533-.934.866-.866
+                  1.6-2 2-3.266h1.4v-2h-4v-2h-2v2h-4v2h1.466c.4 1.266 
+                  1.134 2.4 1.934 3.266-1.4.934-2.734 1.467-2.734 1.467v2.133L2
+                  11.267c.133-.067 1.867-.667 3.667-2 .8.6 1.666 1.066 2.333
+                  1.4l-1.8 4h2.2l.867-2h3.466l.867 2h2.2zm-5.2-2a6.79 6.79 0 01-1.4
+                  2c-.534-.6-1.067-1.267-1.4-2zm3.066 6L11 8.733l.867 1.934z">
+                </path>
+              </svg>
+              &nbsp; English
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr color="white" width="94%">
+
+      <div class="footer--priv">
+        <div> 
+          <a href="#"> <img class="footer--priv-foto" src="static/css/face.png" width="150"></a>
+          <a href="#"> <img class="footer--priv-foto" src="static/css/twitt.png" width="150"></a>
+          <a href="#"> <img class="footer--priv-foto" src="static/css/inst.png" width="150"></a>
+        </div>
+        <div class="adss"> 
+          <div class="asd">
+            <div class="footer--priv--2grid-upper">Privacy Policy </div>
+            <div class="footer--priv--2grid-upper">Terms </div>
+            <div class="footer--priv--2grid-upper">Pricing </div>
+          </div>
+          <div> 
+            This site is protected by reCAPTCHA and the Google 
+            <a href="#" style="display: inline; text-decoration: none; color: white;"> Privacy Policy </a> and 
+            <a href="#" class="link-underline"> Terms of Service  </a> apply.
+          </div>
+        </div>
+        <div > 
+          <div style="padding-bottom: 15px;"> 
+            Do not sell my info (California) 
+          </div>
+          <div>
+            © 2022 Uber Technologies Inc.
+          </div>
+        
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

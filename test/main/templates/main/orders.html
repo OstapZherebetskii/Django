@@ -1,0 +1,13 @@
+{% extends 'main/main.html' %}
+
+
+{% block body %}
+
+{% for el in orders %}
+  <div class="form-control" style="background-color:lightgray; width:30%; "><p> {{ el.name }}</p>
+  <p> {{ el.full_text }}</p>
+  <p> {{ el.date }}</p>
+  <a href="{% url 'order_detail' el.id %}" class="btn btn-warning">Full info</a>
+</div><br>
+{% endfor %}
+{% endblock %}

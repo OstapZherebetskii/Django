@@ -1,0 +1,10 @@
+{% extends 'main/main.html' %}
+
+
+{% block body %}
+<form method="post">
+    {% csrf_token %}
+<button  class="btn btn-success" type="submit">Delete order</button>
+</form>
+
+ {% endblock %}

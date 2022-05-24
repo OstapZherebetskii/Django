@@ -1,0 +1,10 @@
+{% extends 'main/main.html' %}
+
+
+{% block body %}
+
+{% for i in text %}
+        <p class="api">{{ i.id}} {{ i.title }} {{ i.body}} </p>
+{% endfor %}
+
+{% endblock %}

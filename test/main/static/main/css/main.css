@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.header { 
+    background-color: lightgrey;
+    z-index: 2;
+    position: fixed;
+    top: -1;
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    height: 100px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.sign {
+    padding: 15px;
+    font-weight: normal;
+    background-color: rgb(185, 164, 164);
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links {
+    float: right;
+}
+
+.Jop {
+   text-decoration: none;
+   padding-top: 120px;
+   text-align: center;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.api {
+    
+    width: 50%;
+    text-align: center;
+    background-color: lightgray;
+}

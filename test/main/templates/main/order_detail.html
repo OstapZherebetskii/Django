@@ -1,0 +1,14 @@
+{% extends 'main/main.html' %}
+
+
+{% block body %}
+
+{{ order.name }}  <br>  
+{{ order.full_text }} <br>
+{{ order.date }} <br>
+
+<a href="{% url 'order_delete' order.id%}" class="btn btn-warning">Delete order</a>
+
+ 
+
+ {% endblock %}
